@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import TodoCreate from './components/TodoCreate'
+import TodoCreate from './components/CreateToDos'
 import TodoList from './components/TodoList'
 
 

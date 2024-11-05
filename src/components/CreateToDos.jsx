@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../App.css'
-function TodoCreate({ onCreateTodo }) {
+function CreateToDos({ onCreateTodo }) {
 
     const [newTodo, setNewTodo] = useState('')
     const clearInput = () => {
@@ -24,4 +24,4 @@ function TodoCreate({ onCreateTodo }) {
     )
 }
 
-export default TodoCreate
+export default CreateToDos
